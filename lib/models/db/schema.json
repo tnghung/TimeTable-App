@@ -1,0 +1,69 @@
+{
+    "users": [
+        {
+            "uid1": {
+                "name": "ABC",
+                "data": {
+                    "timetables": [
+                        {
+                            "id": 0,
+                            "name": "Timetable #1",
+                            "startDate": "2021-01-01",
+                            "endDate": "2021-01-01",
+                            "courseIds": [1, 2, 5, 10]
+                        }
+                    ],
+                    "courses": [
+                        {
+                            "id": 1,
+                            "name": "Software Engineering",
+                            "date": "Thursday",
+                            "startTime": 450,
+                            "duration": 180,
+                            "lecturerName": "Vu Nguyen",
+                            "room": "https://zoom.us/...",
+                            "color": "#FF00AA",
+                            "note": null,
+                            "taskIds": [3, 4, 9, 10]
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "id": 3,
+                            "type": "assignment",
+                            "name": "Quiz 1",
+                            "startDate": "2021-12-01",
+                            "endDate": "2021-12-31",
+                            "notificationTime": "2021-12-24T20:00:00.000",
+                            "topic": null,
+                            "note": null,
+                            "importantLevel": 1,
+                            "state": "",
+                            "progress": 0,
+                            "isGroupProject": false,
+                            "parentId": 1
+                        },
+                        {
+                            "id": 4,
+                            "type": "exam",
+                            "name": "Midterm Exam",
+                            "startDate": "2021-12-25",
+                            "endDate": "2021-12-25",
+                            "notificationTime": "2021-12-24T20:00:00.000",
+                            "topic": null,
+                            "note": null,
+                            "importantLevel": 0,
+                            "state": "",
+                            "room": "F102",
+                            "parentId": 1
+                        }
+                    ]
+                },
+                "idCounter": 5
+            }
+        },
+        {
+            "uid2": {}
+        }
+    ]
+}
